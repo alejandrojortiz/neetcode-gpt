@@ -8,4 +8,3 @@ class Solution:
         for _ in range(iterations):
             x = x - (learning_rate * 2 * x)
         return round(x, 5)
-    
